@@ -1,65 +1,73 @@
-import Image from "next/image";
-
 export default function Home() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
+    <div className="py-16 px-6">
+      <div className="max-w-4xl mx-auto">
+        {/* Hero Section */}
+        <div className="mb-16">
+          <h1 className="page-title">
+            Welcome to <span className="accent-text">BIMDocs</span>
           </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
+          <p className="page-description">
+            Your comprehensive guide to Building Information Modeling. Learn the fundamentals,
+            explore advanced concepts, and master the tools shaping the future of AEC.
           </p>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
+
+        {/* Quick Start Cards */}
+        <div className="grid gap-6 md:grid-cols-2 mb-16">
+          <a href="/docs/what-is-bim" className="feature-card">
+            <div className="text-3xl mb-4">🚀</div>
+            <h3 className="card-title">Getting Started</h3>
+            <p className="card-description">
+              New to BIM? Start here to understand the basics, core concepts, and why BIM matters in modern construction.
+            </p>
           </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
+
+          <a href="/docs/lod" className="feature-card">
+            <div className="text-3xl mb-4">📚</div>
+            <h3 className="card-title">Core Concepts</h3>
+            <p className="card-description">
+              Dive deeper into LOD levels, BIM dimensions, and interoperability standards like IFC.
+            </p>
           </a>
         </div>
-      </main>
+
+        {/* Features Grid */}
+        <div className="mb-16">
+          <h2 className="section-title">What You'll Learn</h2>
+          <div className="grid gap-6 md:grid-cols-3">
+            <div className="info-card">
+              <div className="text-2xl mb-3">🏗️</div>
+              <h4 className="info-card-title">BIM Fundamentals</h4>
+              <p className="info-card-description">Understand the core principles and workflows</p>
+            </div>
+            <div className="info-card">
+              <div className="text-2xl mb-3">🔧</div>
+              <h4 className="info-card-title">Software Tools</h4>
+              <p className="info-card-description">Master Revit, ArchiCAD, and other platforms</p>
+            </div>
+            <div className="info-card">
+              <div className="text-2xl mb-3">🌐</div>
+              <h4 className="info-card-title">Standards</h4>
+              <p className="info-card-description">Learn industry standards and best practices</p>
+            </div>
+          </div>
+        </div>
+
+        {/* Tip Box */}
+        <div className="tip-box">
+          <div className="flex items-start gap-4">
+            <div className="text-3xl">💡</div>
+            <div>
+              <h3 className="tip-title">Quick Tip</h3>
+              <p className="tip-description">
+                Use the sidebar navigation to explore different topics. Toggle between light and dark mode
+                using the button in the header for comfortable reading at any time of day.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
