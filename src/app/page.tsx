@@ -15,7 +15,7 @@ export default function Home() {
 
         {/* Quick Start Cards */}
         <div className="grid gap-6 md:grid-cols-2 mb-16">
-          <a href="/docs/what-is-bim" className="feature-card">
+          <a href="/docs/1.1-what-is-bim" className="feature-card">
             <div className="text-3xl mb-4">🚀</div>
             <h3 className="card-title">Getting Started</h3>
             <p className="card-description">
@@ -23,7 +23,7 @@ export default function Home() {
             </p>
           </a>
 
-          <a href="/docs/lod" className="feature-card">
+          <a href="/docs/4.1-intro-lod" className="feature-card">
             <div className="text-3xl mb-4">📚</div>
             <h3 className="card-title">Core Concepts</h3>
             <p className="card-description">

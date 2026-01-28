@@ -13,7 +13,9 @@ export default function Search() {
     const router = useRouter();
 
     // Flatten all topics for searching
-    const allTopics = docsData.flatMap(section => section.items);
+    const allTopics = docsData.flatMap(tier =>
+        tier.modules.flatMap(module => module.items)
+    );
 
     useEffect(() => {
         const handleClickOutside = (event: MouseEvent) => {

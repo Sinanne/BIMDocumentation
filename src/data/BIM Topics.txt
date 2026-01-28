@@ -1,0 +1,142 @@
+FOUNDATION TIER: CORE CONCEPTS & INTRODUCTION
+Module 1: Introduction to BIM
+1.1 What is Building Information Modeling?
+1.2 History and Evolution of BIM
+1.3 BIM vs CAD: Understanding the Difference
+1.4 Benefits of BIM in Construction
+1.5 BIM Adoption Worldwide
+1.6 Industry Drivers for BIM Implementation
+1.7 Common BIM Terminology and Glossary
+Module 2: BIM Fundamentals
+2.1 Core Principles of BIM
+2.2 BIM Workflow Overview
+2.3 Information Management in BIM
+2.4 Common Data Environment (CDE)
+2.5 The Role of BIM in Project Lifecycle
+2.6 Collaborative BIM vs Traditional Methods
+2.7 BIM Use Cases Across Industries
+Module 3: Understanding BIM Dimensions
+3.1 Introduction to BIM Dimensions
+3.2 2D BIM: Traditional Drawings
+3.3 3D BIM: Geometric Modeling (X, Y, Z)
+3.4 4D BIM: Time and Scheduling
+3.5 5D BIM: Cost Estimation and Budgeting
+3.6 6D BIM: Sustainability and Energy Analysis
+3.7 7D BIM: Facility Management and Operations
+3.8 8D BIM: Safety and Risk Management
+3.9 9D BIM: Lean Construction
+3.10 10D BIM: Industrialized Construction
+ 
+BEGINNER TIER: GETTING STARTED WITH BIM
+Module 4: BIM Levels of Development (LOD)
+4.1 Introduction to LOD
+4.2 LOD vs Level of Detail
+4.3 LOD 100: Conceptual Design
+4.4 LOD 200: Schematic Design
+4.5 LOD 300: Detailed Design
+4.6 LOD 350: Construction Documentation
+4.7 LOD 400: Fabrication and Assembly
+4.8 LOD 500: As-Built and Facility Management
+4.9 Choosing Appropriate LOD for Projects
+4.10 LOD in Project Deliverables and Contracts
+Module 5: BIM Software Introduction
+5.1 Overview of BIM Software Landscape
+5.2 Autodesk Revit: Architecture, Structure, MEP
+5.3 Graphisoft ArchiCAD
+5.4 Autodesk Navisworks: Review and Coordination
+5.5 Tekla Structures: Structural BIM
+5.6 SketchUp and BIM Extensions
+5.7 Bentley MicroStation and OpenBuildings
+5.8 Trimble Connect and Collaboration Tools
+5.9 Software Selection Criteria
+5.10 Free and Educational Software Options
+Module 6: Basic BIM Workflow
+6.1 Project Setup and Planning
+6.2 Creating BIM Execution Plans (BEP) - Basics
+6.3 File Naming Conventions
+6.4 Model Organization and Structure
+6.5 Working with Templates
+6.6 Basic Collaboration Workflows
+6.7 Version Control Fundamentals
+6.8 Quality Control Basics
+6.9 Basic Clash Detection Concepts
+6.10 Model Handover Basics
+ 
+INTERMEDIATE TIER: PROFESSIONAL BIM PRACTICE
+Module 7: ISO 19650 Standards - Part 1
+7.1 Introduction to ISO 19650 Series
+7.2 ISO 19650-1: Concepts and Principles
+7.3 Information Management Framework
+7.4 Information Delivery Cycle
+7.5 Appointing Party vs Appointed Party
+7.6 Exchange Information Requirements (EIR)
+7.7 Asset Information Requirements (AIR)
+7.8 Organizational Information Requirements (OIR)
+7.9 BIM Maturity Levels and ISO 19650
+7.10 Transition from PAS 1192 to ISO 19650
+Module 8: ISO 19650 Standards - Part 2
+8.1 ISO 19650-2: Delivery Phase
+8.2 ISO 19650-3: Operational Phase
+8.3 ISO 19650-4: Information Exchange
+8.4 ISO 19650-5: Security-minded Approach
+8.5 ISO 19650-6: Health and Safety (Under Development)
+8.6 National Annexes and Regional Adaptations
+8.7 ISO 19650 Certification Process
+8.8 Implementing ISO 19650 in Organizations
+8.9 ISO 19650 and Digital Twins
+8.10 Future of ISO 19650
+Module 9: BIM Execution Planning
+9.1 Purpose and Importance of BEP
+9.2 Components of a BIM Execution Plan
+9.3 Project Information Requirements (PIR)
+9.4 Defining BIM Goals and Objectives
+9.5 BIM Roles and Responsibilities
+9.6 Information Exchange Protocols
+9.7 Model Development Procedures
+9.8 Quality Assurance/Quality Control (QA/QC) Plans
+9.9 Software and Technology Requirements
+9.10 BEP Templates and Examples
+Module 10: Advanced Revit Techniques
+10.1 Advanced Family Creation
+10.2 Parametric Design in Revit
+10.3 Adaptive Components
+10.4 Worksharing and Central Models
+10.5 Phasing and Design Options
+10.6 Advanced MEP Systems Modeling
+10.7 Structural Analysis Integration
+10.8 Revit API and Automation Basics
+10.9 Dynamo for Revit: Visual Programming
+10.10 Custom Revit Add-ins and Plugins
+Module 11: Coordination and Clash Detection
+11.1 Introduction to Model Coordination
+11.2 Setting Up Navisworks for Clash Detection
+11.3 Types of Clashes: Hard, Soft, Workflow
+11.4 Running Clash Tests
+11.5 Clash Reporting and Documentation
+11.6 BCF (BIM Collaboration Format) Workflow
+11.7 Resolving Clashes in Source Models
+11.8 Coordination Meetings and Protocols
+11.9 Model Federation Strategies
+11.10 Advanced Clash Detection Strategies
+Module 12: BIM for Different Disciplines
+12.1 Architectural BIM Best Practices
+12.2 Structural BIM Workflows
+12.3 MEP (Mechanical, Electrical, Plumbing) BIM
+12.4 Civil and Infrastructure BIM
+12.5 Landscape Architecture in BIM
+12.6 Interior Design and BIM
+12.7 Quantity Surveying and BIM
+12.8 Construction Management with BIM
+12.9 Facilities Management and BIM
+12.10 Multi-disciplinary Coordination
+Module 13: Data Management and CDE
+13.1 Common Data Environment Principles
+13.2 CDE Platforms and Solutions
+13.3 Document Management in BIM
+13.4 Information Containers and Formats
+13.5 File Naming and Classification Systems
+13.6 Access Control and Permissions
+13.7 Version Control Advanced
+13.8 Data Security in BIM Projects
+13.9 Cloud-based BIM Collaboration
+13.10 BIM 360 and Autodesk Construction Cloud
